@@ -3,7 +3,7 @@
     padding:0;
 }
 header{
-   background-color: rgb(200, 232, 236);
+   background-color:#506056;
    
     background-size: contain;
     width:100%;
@@ -12,50 +12,66 @@ header{
 
 .top{
     
-    color: white;
+    color: #F6EFE7;
     display:flex;
     justify-content: space-between;
    align-content: center;
    background-size: auto;
+   margin-left: 165px;
+   padding-top: 10px;
    
    
+}
+a:link{
+    color: #F6EFE7;
+    text-decoration: none;
+}
+a:visited{
+    color: #F6EFE7;
 }
 .top-nav{
     
     display:flex;
-    gap: 8px;
+    gap: 28px;
     list-style-type: none;
+    margin-right: 300px;
 }
+
 .eat-image{
 display: flex;
-    border-radius: 50%;
-    height: 350px;
-    width: 250px;
-  margin-left: 400px;
+    border-radius: 150%;
+    height: 300px;
+    width: 600;
+  margin-left: 800px;
   border: 8px solid white;
-  border-color: white;
+  
   position: absolute;
-  margin-top: 100px;
-   
+  margin-bottom: 30px;
+   /* margin-right: 500px; */
     
 
     
 }
 .mid{
+    gap: 8px;
+    color:#F6EFE7; 
     display: flex;
     align-items: center;
 flex-direction: column-reverse;
 justify-content: center;
-padding-bottom: 15px;
+padding-bottom: 120px;
 padding-left: 15px;
+padding-top: 120px;
+margin-left: 150px;
 }
-button{
-    background-color: pink;
-
+.signupbutton {
+    background-color: #C87E5D;
+color:#F6EFE7;
+/* font-family: cursive; */
     align-self:flex-start;
     margin-left: 150px;
     order: -1;
-    border-radius: 50%;
+    border-radius: 
 }
 
 p{
@@ -72,9 +88,8 @@ h1{
 
 .process{
     display: flex;
-  
-    
-    
+    justify-content: center;
+    gap:200px;
 
     
 
@@ -83,11 +98,55 @@ h1{
 
     height: 350px;
     width: 250px;
-    gap: 8px;
+    border-radius: 150%;
+    border: 8px solid #506056;
+  
+    
 }
 .howitworks{
-   margin-left: 200px;
+    color: #506056;
+   margin-left: 850px;
+   padding-top: 14px;
+   padding-bottom: 50px;
 }
 .quote{
-    background-color: rgb(222, 225, 228);
+    margin-top: 80px;
+    background-color: #F6EFE7;
+    padding:68px;
+    text-align:center;
+    font-size: 13px;
+    margin-bottom:80px;
+}
+body{
+    background-color: #EADBCD;
+}
+
+.hat-dog{
+    display: flex;
+}
+.picture-text{
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap:200px;
+    font-size: 10px;
+    color: #506056;
+
+}
+.bottom-banner{
+    background-color: #C87E5D;
+    margin-left: 550px;
+    margin-right: 550px;
+    text-align: center;
+    padding: 40px;
+}
+.banner-signup{
+    background-color: #F6EFE7 ;
+    color:#506056;
+}.footer{
+    margin-top: 280px;
+    padding-top: 28px;
+    background-color: #506056;
+color: #F6EFE7;
+text-align: center;
 }
